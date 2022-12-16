@@ -16,7 +16,7 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 
 The example command generates client and server library for Go.
 ```
-make
+make TARGET_LANG=go
 ```
 
 ## References
